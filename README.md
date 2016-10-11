@@ -4,9 +4,10 @@
 
 - ``` Git
 git clone git@github.com:thandon263/chadbot_comp.git
+```
 
 -  ```bundle install```
--  rake db:migrate or bundle exec rake ddb:migrate
+- ``` rake db:migrate or bundle exec rake db:migrate 
 ```
 * It will depend on the version of rails you are using
 
