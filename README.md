@@ -2,14 +2,30 @@
 
 ### To run the application
 
-- ``` Git
-git clone git@github.com:thandon263/chadbot_comp.git
-```
+- ``` Git git clone git@github.com:thandon263/chadbot_comp.git ```
 
--  ```bundle install```
-- ``` rake db:migrate or bundle exec rake db:migrate 
-```
+- ``` Git bundle install ```
+- ``` Git rake db:migrate or bundle exec rake db:migrate ```
+
 * It will depend on the version of rails you are using
+
+``` Ruby
+
+    def __adt__  
+      "This is a test!"
+    end
+
+    puts __adt__
+
+    ActiveSupport.on_load(:action_controller) do
+      wrap_parameters format: [:json]
+    end
+
+    # To enable root element in JSON for ActiveRecord objects.
+    # ActiveSupport.on_load(:active_record) do
+    #   self.include_root_in_json = true
+    # end
+```
 
 ## Our models for the app
 
